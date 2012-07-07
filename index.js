@@ -9,7 +9,7 @@ module.exports = function (cacheFile) {
     mkdirp.sync(path.dirname(cacheFile), 0700);
     
     var cache = {};
-    if (path.existsSync(cacheFile)) {
+    if (fs.existsSync(cacheFile)) {
         var body = fs.readFileSync(cacheFile);
         try {
             cache = JSON.parse(body);
