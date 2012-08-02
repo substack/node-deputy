@@ -1,7 +1,7 @@
 {
     "name" : "deputy",
     "description" : "caching layer for detective",
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "repository" : {
         "type" : "git",
         "url" : "git://github.com/substack/node-deputy.git"
@@ -22,7 +22,7 @@
     },
     "dependencies" : {
         "mkdirp" : "~0.3.3",
-        "detective" : "~0.1.1"
+        "detective" : "~0.2.0"
     },
     "devDependencies" : {
         "tap" : "0.0.x"
