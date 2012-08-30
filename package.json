@@ -1,7 +1,7 @@
 {
     "name" : "deputy",
     "description" : "caching layer for detective",
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "repository" : {
         "type" : "git",
         "url" : "git://github.com/substack/node-deputy.git"
